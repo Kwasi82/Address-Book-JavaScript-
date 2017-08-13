@@ -17,5 +17,5 @@ var bookContacts = new Array(kwasi, kwadwo);
 // console.log("The first contact in the address book is " + bookContacts[0].firstName);
 
 var displayContact = function (contact) {
-    document.querySelector(".contact").innerHTML = contact.firstName + " " + contact.lastName;
+    document.querySelector(".contact").innerHTML = "<p>" + contact.firstName + " " + contact.lastName + "</p>";
 }
