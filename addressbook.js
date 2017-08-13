@@ -11,3 +11,6 @@ var kwadwo = {
     telephoneNo: "08085551111",
     email: "kwadwo@email.com"
 };
+
+var bookContacts = new Array(kwasi, kwadwo);
+
