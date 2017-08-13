@@ -19,3 +19,6 @@ var bookContacts = new Array(kwasi, kwadwo);
 var displayContact = function (contact) {
     document.querySelector(".contact").innerHTML = "<p>" + contact.firstName + " " + contact.lastName + "</p>";
 }
+
+displayContact(bookContacts[0]);
+displayContact(bookContacts[1]);
