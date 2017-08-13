@@ -16,15 +16,16 @@ var bookContacts = new Array(kwasi, kwadwo);
 
 // console.log("The first contact in the address book is " + bookContacts[0].firstName);
 
-displayContact = function (contact) {
+var displayContact = function(contact) {
     alert(contact.firstName + " " + contact.lastName);
 }
 
-listContact = function () {
-    var numberContacts = contact.length;
+var listContact = function() {
+    var numberContacts = bookContacts.length;
     for(i=0; i < numberContacts; i++) {
-        displayContact(contact[i]);
+        displayContact(bookContacts[i]);
     };
 }
 
-listContact();
+listContact(); 
+
