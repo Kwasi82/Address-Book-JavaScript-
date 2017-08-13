@@ -40,3 +40,4 @@ var addContact = function(firstName, lastName, email, phoneNumber) {
     bookContacts[bookContacts.length] = {firstName: firstName, lastName: lastName, email: email, phoneNumber: phoneNumber}
 }
 
+addContact("Jonny", "Smith", "j.smith@email.com", "08085552222");
