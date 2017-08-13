@@ -27,5 +27,13 @@ var listContact = function() {
     };
 }
 
-listContact(); 
+var searchTel = function(telNo) {
+    var numberContacts = bookContacts.length;
+    for(i=0; i < numberContacts; i++) {
+        if(telNo === bookContacts[i].telephoneNo) {
+            displayContact(bookContacts[i]);
+        }
+    }
+}
 
+searchTel("08085551111");
