@@ -36,4 +36,3 @@ var searchTel = function(telNo) {
     }
 }
 
-searchTel("08085551111");
