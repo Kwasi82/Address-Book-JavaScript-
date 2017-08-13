@@ -36,3 +36,7 @@ var searchTel = function(telNo) {
     }
 }
 
+var addContact = function(firstName, lastName, email, phoneNumber) {
+    bookContacts[bookContacts.length] = {firstName: firstName, lastName: lastName, email: email, phoneNumber: phoneNumber}
+}
+
