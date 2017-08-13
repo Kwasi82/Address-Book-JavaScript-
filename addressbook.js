@@ -20,5 +20,8 @@ var displayContact = function (contact) {
     alert(contact.firstName + " " + contact.lastName);
 }
 
-displayContact(bookContacts[0]);
-displayContact(bookContacts[1]);
+var listContact = function () {
+    for(i=0; i < contact.length; i++) {
+        displayContact(contact[i]);
+    };
+}
