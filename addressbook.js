@@ -41,3 +41,5 @@ var addContact = function(firstName, lastName, email, phoneNumber) {
 }
 
 addContact("Jonny", "Smith", "j.smith@email.com", "08085552222");
+
+listContact();
